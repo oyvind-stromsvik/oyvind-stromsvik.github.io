@@ -1,0 +1,28 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>About — Øyvind Strømsvik</title><meta name="description" content="About Øyvind Strømsvik"><link rel="stylesheet" href="/_astro/Z_G2QBiD.css"></head> <body> <div id="grid-bg"></div> <div id="grid-warp"></div> <div class="topbar"> <div class="container topbar-inner"> <div class="brand"> <a href="/" class="link-reset"><span class="brand-logo"></span>Øyvind Strømsvik</a> </div> <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"> <span></span> <span></span> <span></span> </button> <nav class="nav" aria-label="Primary"> <a href="/">Home</a> <a href="/about/">About</a> <a href="/posts/">Posts</a> </nav> </div> </div> <main>  <section class="section" style="padding-top:34px"> <div class="container prose"> <div class="card"> <h1 style="margin-top:0">About me</h1> <p>
+My name is Øyvind Strømsvik and this is my personal website dedicated for the most part
+          to game development in Unity.
+</p> <p>
+I've been passionate about games all my life and started dabbling in game development a
+          very long time ago with BlitzBasic, but I quickly lost interest and began doing 3d modeling
+          instead. For a while I considered getting a degree in 3d modeling in the hopes of making
+          it my full time job, but I decided against it at the last minute because the thought of
+          making things for other people didn't appeal to me. What I love about both game
+          development and 3d modeling is making things for myself.
+</p> <p>
+I was then given the opportunity to work part time with web design which turned into web
+          development and later into my career.
+</p> <p>
+3d modeling remained a hobby and I picked up game development again around the release
+          of Unity 2.0. My driving force behind wanting to get back into game development was my
+          lost interest in commercial games as they started appealing to a group of gamers I was
+          no longer in. Indie games were the only games that still looked interesting, but at the
+          same time some of them looked like they would be just as fun to make as to actually play.
+          And many of them were made by just one guy.
+</p> <p>
+The purpose of this website is to showcase my Unity projects as well as provide useful
+          resources for those interested in Unity game development and for me to have a place to
+          write down some of my thoughts and ideas I guess..
+</p> <hr> <p style="font-size: 0.875em; opacity: 0.8;"> <strong>Credits:</strong> This site uses the <a href="https://managore.itch.io/m5x7" target="_blank" rel="noopener">M5x7</a> font by Managore.
+</p> </div> <a style="margin-top:14px" class="btn" href="/">
+← Back Home
+</a> </div> </section>  </main> <footer class="footer"> <div class="container">© 2026 — Built with Astro</div> </footer> <div id="crt-overlay"> <div class="scanlines"></div> <!-- Vignette / Curve effect via CSS --> <button class="crt-badge" id="crt-badge">CRT MODE</button> </div> <script type="module">const t="crt-mode";function s(){sessionStorage.getItem(t)==="true"&&n(!1),document.addEventListener("crt-mode-enable",()=>{n(!0)}),document.getElementById("crt-badge")?.addEventListener("click",()=>{d()})}function n(e=!0){sessionStorage.setItem(t,"true"),document.documentElement.classList.add("crt-mode-active");const o=document.getElementById("crt-overlay");o&&o.classList.add("visible"),console.log("CRT MODE ACTIVATED")}function d(){sessionStorage.removeItem(t),document.documentElement.classList.remove("crt-mode-active");const e=document.getElementById("crt-overlay");e&&e.classList.remove("visible")}s();document.addEventListener("astro:page-load",s);</script>  <script type="module">const o=e=>{document.body.classList.contains("game-active")||(document.documentElement.style.setProperty("--mouse-x",e.clientX+"px"),document.documentElement.style.setProperty("--mouse-y",e.clientY+"px"))};document.addEventListener("mousemove",o);document.addEventListener("touchmove",e=>o(e.touches[0]));const t=document.querySelector(".nav-toggle"),n=document.querySelector(".nav");t&&n&&(t.addEventListener("click",()=>{const e=t.getAttribute("aria-expanded")==="true";t.setAttribute("aria-expanded",String(!e)),n.classList.toggle("open")}),n.querySelectorAll("a").forEach(e=>{e.addEventListener("click",()=>{t.setAttribute("aria-expanded","false"),n.classList.remove("open")})}),document.addEventListener("click",e=>{e.target.closest(".topbar-inner")||(t.setAttribute("aria-expanded","false"),n.classList.remove("open"))}));</script> </body> </html>
